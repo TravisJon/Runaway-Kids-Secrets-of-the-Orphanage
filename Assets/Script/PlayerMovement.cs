@@ -15,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private int totalJump;
     private int airCount;
     public bool isGrounded;
+    public bool isCrouching;
+
+    private Vector2 normalCollSize;
+    private Vector2 normalCollOffs;
 
     // Start is called before the first frame update
     private void Start()
@@ -22,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        normalCollSize = GetComponent<BoxCollider2D>().size;
+        normalCollOffs = GetComponent<BoxCollider2D>().offset;
     }
 
     // Update is called once per frame
@@ -30,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         Run();
         Move();
         Jump();
+        Crouch();
     }
     private void Move()
     {
@@ -74,6 +81,29 @@ public class PlayerMovement : MonoBehaviour
 
         UpdateAnimationState();
     }
+
+    private void Crouch()
+    {
+        if (Input.GetAxisRaw("Vertical") < 0 && isGrounded)
+        {
+            isCrouching = true;
+            GetComponent<BoxCollider2D>().size = new Vector2(0.7992616f, 1.52f);
+            GetComponent<BoxCollider2D>().offset = new Vector2(0.007851839f, -0.8347909f);
+            if (Input.GetButtonDown("Jump"))
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0f);
+            }
+        }
+        else
+        {
+            isCrouching = false;
+            GetComponent<BoxCollider2D>().size = normalCollSize;
+            GetComponent<BoxCollider2D>().offset = normalCollOffs;
+        }
+    }
+
+
+
 
     private void UpdateAnimationState()
     {
