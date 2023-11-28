@@ -1,0 +1,5090 @@
+fileFormatVersion: 2
+guid: e8e66160ba9587f448873e6937a5de86
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background_Wall - persegi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a79662294137774aae80333a6990ec3
+      internalID: 1182551174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f35f753ce0654e950808d2b2c73b6
+      internalID: -2056925164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e42506431951d4b95823769f82fc80
+      internalID: 32125377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b2b4cd0e9f01941b9a9b1732b8e08d
+      internalID: -1682209055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe84334012c19948935ff2a540e5ae2
+      internalID: 87218675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4063af36f4ad48a59011a6b36eeb5
+      internalID: -841691906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1647460003d572341a095607275200fb
+      internalID: -1640861750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea766a66ea72c0048b50dadae92e1536
+      internalID: -1804037442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bcf065f2db24d4fb99c36ac4e3ca37
+      internalID: -1212317416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab810e5b473c3b42841e64b53a49319
+      internalID: 1951289485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a566dc6fc336d46b109835de8e4e8b
+      internalID: 1366844608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819db9422cd5e64418c2b5cc8204bae6
+      internalID: -1271740097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_12
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bfc6b6ec4c287498882bb502ff1426
+      internalID: 1475296531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_13
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3461966baef098458dd62f2fc9a0d35
+      internalID: -1970702093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_14
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504674e1a20a38f4389653a7f4655948
+      internalID: 451203507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a25d5f948428e64a95fbf7eeb4430ba
+      internalID: 943099813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f46bd30c4ddbb4ca606aaa137bd524
+      internalID: 505087048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb6053f5b24394ba8606cd7e096d55
+      internalID: 1304241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616dcf6c13c942e469ccd59dd43b77ba
+      internalID: -1321206212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646be14ec75c91e48adfa676186be6ff
+      internalID: 458731515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c506ed363d7d1f943845c59699d90cb9
+      internalID: 943889193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31da8d10aef003408f575faa559b4ab
+      internalID: 1488117590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_22
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd9625327d66f34a9fe303285fac248
+      internalID: -249174243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_23
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53976241322d0ad4e82f2c3903cb182b
+      internalID: 257518884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_24
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fa9da8f5f56d943bda3b582d4b51f4
+      internalID: 1922437466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_25
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1ca15ac2450cc4db3b03cb6ecaac55
+      internalID: 1643760079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_26
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421f0d06f8fc08d4eb1782a55b07c43e
+      internalID: -583032296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_27
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ff35f1681e0e948872e292f0594e8d
+      internalID: -1302051776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_28
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8facc2bb460b05141a14d5f01cd6a5c3
+      internalID: 1663986632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_29
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e12889dcb6fc24abcaeb871f3ca74d
+      internalID: 167597362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb12571ad2ea1bc49bfd326f387d7f44
+      internalID: -927020921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7dfa8ce81b37c469e4d77577f010c7
+      internalID: 1741260480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63d39dda44719d47b1becec2bb42bae
+      internalID: -1371729683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e0904e2d93424bb065934f86fd361
+      internalID: -526178011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_34
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02cbc3fb594d8547995aa24aa215ab5
+      internalID: -1409038189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_35
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b79ce34d81f0e49bc6ddb9c9d1f757
+      internalID: -1370795992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a244779c43ea24ea0f3d362a70fad4
+      internalID: -1344959710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_37
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49a53f82a089924382f44c3ca0a70af
+      internalID: -169516678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_38
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e60eb63048492d4c8e95683ea5506a8
+      internalID: 1040290194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f211a359130b743aac3265dc919171
+      internalID: 1521241491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31207437ba724634296cec5809fe6288
+      internalID: 148750902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_41
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad49423aec26b7b4ab097725a41c6ccd
+      internalID: -342688556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_42
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13f0921e11165149b313a7643fcf8bd
+      internalID: 1419056720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_43
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35723d399d44e144cbb747bbd802be64
+      internalID: 1642696623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_44
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b2fb4869bf59e4a8a60e62d5adff3b
+      internalID: -53418985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3e612a520e2d4a9425c30c9e39f85
+      internalID: 1812234656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c2269f3819f7940aa4405c3409886f
+      internalID: 538432177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b878a3ebd2632948b23d311b7001051
+      internalID: -96627843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_48
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8274d871028a444d846f0366a7fd8fe
+      internalID: -447196569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_49
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ff4083970c4445afe8079bbb94b27
+      internalID: 1615306308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_50
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d81484d19f1b64e99d293f3f622df5
+      internalID: -1560071560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_51
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bca3042ea3fc264eb74c34bb9618a6b
+      internalID: -1153854855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_52
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e11ba8e2ff0ec74181944f151e14423
+      internalID: -1983231105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7d3a637bb29ef4992a348b90e784ff
+      internalID: -2012544190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b09c18d63527443b6056596f8ae936
+      internalID: 1938189702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_55
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901edc99d946ffa4d9a34946d92b62fe
+      internalID: -1074957876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_56
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d825faa9b026d547a00fa13b8c9d6cb
+      internalID: 1454834409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_57
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876f04a9f56cd94ebe5f0c464cb6fc8
+      internalID: 1117056035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_58
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfb7f03a85b5534cb135dbef4f8e058
+      internalID: 888585126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_59
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c2d2d21fc0d854aba10265daec8d95
+      internalID: -1256378876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c266f7693f6aaab46bd2d4859186fb0d
+      internalID: 139217064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93f12facc7435a4690a15ee51b5a77c
+      internalID: 1277217745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf12a328a4b83cf45a0b727fbb89162d
+      internalID: 1881174655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2999bcdfabc240843a43c74e2c9f5543
+      internalID: -1703015979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_64
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731778852325d5746bc0fb6247d9d67b
+      internalID: -2076756733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_65
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876454ef5f59ba5448e265c2d336f7fa
+      internalID: -2135752428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_66
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02264edba259584584a709c8ee52c73
+      internalID: -746460002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_67
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479ecc98210bc604d91996c29489b1ea
+      internalID: -1033614258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d661c054a834544f95ea2ed193576d5
+      internalID: -1500728222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_69
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f91053b25210a419f9ad673ed70ca6
+      internalID: 1359891514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_70
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac73a5fc6506f354bbe764ce69e07055
+      internalID: -1052368987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_71
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae300101c81aef4496669800a0f3533
+      internalID: 1405153678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_72
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c9ad5eb8cc3744aa0554ebe3946654
+      internalID: -220387881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_73
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b72002fad0cab4fb01f381a35671e2
+      internalID: 1723652064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_74
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3386eed171c06da48af451d8f38ceac9
+      internalID: 2104433847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd79bf0cda23ec1418a3c745035bd1b3
+      internalID: -1224327873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3c1467d5f16824eaceacf3d158732e
+      internalID: 1035390648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_77
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcc11deb580b942855cffeb0a1d320
+      internalID: 1150148921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_78
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb84a82ddd8aae4291f8c5f9fb315d6
+      internalID: -1791474408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5724a4f9e9208c94a93b704312a23a32
+      internalID: -396604860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10187fba1be695c43a33cc95f00fe940
+      internalID: -2035600020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_81
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114450300819c254ba6700f10930453f
+      internalID: -629723782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_82
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c39b1835f89cf43826411c84783603
+      internalID: 1896659353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_83
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea98a252effb21b43b215ac1e649b16d
+      internalID: 1902065297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_84
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6911af9cb1112e34294948d884a9a9f6
+      internalID: -808349825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_85
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d30bdddcbb5df4b84053c1792b8271
+      internalID: -906902907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_86
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba9636279b407a4d94e205d5728ccba
+      internalID: 918805382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_87
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709aefaae7a8c514d9dd1a0444ca019c
+      internalID: -2014116600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_88
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8c0259f83d57489d7bd3818852a31
+      internalID: -784298729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_89
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97490d74ae2755349b9f9a04a5566284
+      internalID: 250990248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e943d750f67a814e8c8a981d24f9d1d
+      internalID: 561778446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_91
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6a140b37455e418245bc5a2370e1c
+      internalID: -208068797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_92
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a7357b80decc4aa779f4dfc91ee8d
+      internalID: 164395184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_93
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a5d88a12d8c74780ff73427012427
+      internalID: -2033301181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_94
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749713accbeb41443b347fa3c6602499
+      internalID: -201600572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_95
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f553ecd3f46d0e74ea0331f4bba1cbe2
+      internalID: 1966708577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_96
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d74cb3c57bf5e408252b3881c62a9a
+      internalID: 1379377305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_97
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d3ead952f21d84d93ac5e5469a7f65
+      internalID: -1341345914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_98
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ae0dd8658d87143a5812fe062540cc
+      internalID: 756949457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_99
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7a300c75c243847b356983fb8c3462
+      internalID: 1801732254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_100
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221188bc6a138fc4e9e821cbbf0aacd1
+      internalID: 289429681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_101
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a20675513f262145ae128d60681eb7a
+      internalID: 910414328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_102
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88056703097000e48994a74fd5551308
+      internalID: -1363712547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_103
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5726c2160645c249a69d9776d534597
+      internalID: -1376721202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_104
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cb6be5234dce347831d9222491a883
+      internalID: -1584965920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01eeb5ef2d754441baa83b75571a21f
+      internalID: -905577284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_106
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ec06c43f1ab614480e3846a3c472d7
+      internalID: 783575112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_107
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a6aae9987b0eb478e5aa50d39ae060
+      internalID: 1418365091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_108
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3033ba493f6c44a4f8b202d947d7b49e
+      internalID: 2024044475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_109
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b2cf0a59c3afd4aa4634514f8f24ac
+      internalID: 572414481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_110
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb3b0014d3bf0743b470b75ac94aeb6
+      internalID: 1755645977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_111
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2698d471cd8cc9840ad59a72dec48496
+      internalID: -497974501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_112
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8381bef3ccb6441a73d63e0bad7bc4
+      internalID: -1164120961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_113
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb555cb642cdaea4387b29cc7585300d
+      internalID: 668026968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_114
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e265a02a80631c4386c16c08bb61db7
+      internalID: 375553071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_115
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609012793800bde4d89e9da857d11d24
+      internalID: 204980321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_116
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2908d73f40e230d4d97acbb26f94318a
+      internalID: 39024633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_117
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ef8375bb029042bc681dec254a39f
+      internalID: -1685743722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_118
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761108f6805fc544cb8c904306a401fa
+      internalID: 1730238159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_119
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac90dc6d793fdb84e9f95d3ea2ab0f56
+      internalID: -26839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27975f90dbe94ae4fb4066f0752ef60f
+      internalID: -1622764045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_121
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da97e9c80cc61244493170e8e2635a08
+      internalID: -1772202813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_122
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a78c5ed44280445a7fd2f9cc5024cd
+      internalID: -177039454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_123
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d72ade702f04004080dd1248bd0d778
+      internalID: -315072607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_124
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c12dab2adb00bb4e9b8c95b1f76691f
+      internalID: 1129738339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_125
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf078b4ed6c79c4083ea4cf1ded143a
+      internalID: 1436299661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_126
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f9374b5d062b14c97feb1f7f6151bc
+      internalID: 447374470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_127
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94701fb1b0a8b344bac641a5ebe57fd7
+      internalID: -2088850921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_128
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd71c6d17029e5846bc756dbf41c47d7
+      internalID: -916765537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_129
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d9f1159bbcad540b3ef6e841361517
+      internalID: 40457610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_130
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eabea5adc621d641b98fbed3c9cd1ac
+      internalID: -1068677903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_131
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108ed9a0f0c4a2419754d08bc00f17f
+      internalID: 882613806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_132
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0bc81fe320a1d409c290b9781ae385
+      internalID: 1465505693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_133
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505273d96899a246b45cbf131f93198
+      internalID: -1231094404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_134
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfa42b461e76c34bb018ac45a2d15b5
+      internalID: -953892916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b83f933fdeaa04286f7fc584559242
+      internalID: -362341996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_136
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7aad610eddf1d42a4bd799fe420ab3
+      internalID: -1823792255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_137
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70572e6e988fbf41bf80a62e1440744
+      internalID: -1345893493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_138
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b44c756b529124081871f6955b5178
+      internalID: -1272497018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_139
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e0e97b115c10345895d969e8a9e6cf
+      internalID: 1955592420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_140
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67616ab4a94044a4b94345c7eea2de82
+      internalID: -938812883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_141
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2c6a49d8a4eb54d96a0239c708db08
+      internalID: 791380574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_142
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a77701065fbc498f9d4c11895d869
+      internalID: 1814038540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_143
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353729287c177b04eb01d2c1a4f26aa7
+      internalID: 618335228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_144
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b2f63c666f52640803c47c9961e9b3
+      internalID: -89447024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_145
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662c44d6b33dd2459d27a9c77546024
+      internalID: -36173284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_146
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd970f721eedfa142b547ec464451084
+      internalID: -1213751036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_147
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c59a85c9abd4940b1114cc3eb4c087
+      internalID: -312051868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_148
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56afb79de8449744984b2bc993c2fb0d
+      internalID: 98838107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_149
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2001
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9dce7a6548f7644a86be766a94f887
+      internalID: -61205776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede76cd4df3c131478866eda55918863
+      internalID: 1531854157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_151
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace25fd622a69041b93c863f2a06609
+      internalID: -2004492906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_152
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbdf3e733b2dd447a741b4ef2a1b572
+      internalID: 1360580011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_153
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bbdc4fc794fcf49a8317a9fea1a68d
+      internalID: -469917583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_154
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56fc09527534bb4b99e2617c4b19c0d
+      internalID: 1811062899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_155
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c8786b8b6d06c4fa574daf672441f5
+      internalID: -1471414303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_156
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66498023d7250f144be90d4795e6c48a
+      internalID: -1567771394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_157
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ac8058515fcc243966ba0fba3ef86d
+      internalID: -199731457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_158
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e004931a01ce845be5735699cf933a
+      internalID: 333791959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_159
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcc0279a356ddc4dad88a52646dadc9
+      internalID: 750123506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_160
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd61810b1ee592e41a9aba7a6f158994
+      internalID: -818495399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_161
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec82a72f1ee3eb845b8232e3be52f50a
+      internalID: 78697965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_162
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d6dac97ee0d474aa69d8f1cdd70e70
+      internalID: 651014645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_163
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd474da9759a9d4089c06d48ac6d1db
+      internalID: 1277107797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_164
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1601
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb89bb2a85ae627489217fe7a08d1e23
+      internalID: -2143968858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ecdf4a027a406409ac038979e7e5fb
+      internalID: 1331565423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_166
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74465ef739763a4883db51f530520aa
+      internalID: 219935609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_167
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e8107e0dba70c488520c03951f7337
+      internalID: 1948700335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_168
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34da0f0de5f26241ae9b2de2dc97cdf
+      internalID: -659373244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_169
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a7d26a94138dc42a6c01d91ddb5ace
+      internalID: -1278926514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_170
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c8b338cdc1f4341bd7cf0a74f40000
+      internalID: 1542454187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_171
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69a03ef630717a43bd35ad9f267373f
+      internalID: -1922332712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_172
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbbc6a140eb7a8479c507ffd276708a
+      internalID: -1414809518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_173
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe92425d6f588f4b891436ab682a0ce
+      internalID: -1715075774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_174
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4625628b4f3d49a468203d28e86013a3
+      internalID: 137241888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_175
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f10988ff1daf34f89a706eb55a872f
+      internalID: 422792637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_176
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fb9ddced307f044866a11333ec90b3
+      internalID: -94416965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_177
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7b8d2a308c2784bb21f44340b16ca8
+      internalID: -1766171904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_178
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc154333a0bae74dacfbaf1dcc6a667
+      internalID: 1415553085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_179
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1201
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d8bb81476143438cf6805eca91127
+      internalID: -1277646788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fa04e708a9e06499614acf72a85fac
+      internalID: -994026529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_181
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ac4961d57c93f44adb07eb44a034c6
+      internalID: -903782468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_182
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d581a31f1916c334a9057dc747750351
+      internalID: -1058142306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_183
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7476199cd17e4884e8159e14dbc88
+      internalID: 620067468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_184
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d099fd8b128bb45b6317a95beb69db
+      internalID: -1199380140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_185
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b556d6e2c4de04b95d04bd390e5697
+      internalID: 577524765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_186
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75d92080a95a0045b53ff0affca9e29
+      internalID: -888685110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_187
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab70578432ca0b544bf8de4669c7be53
+      internalID: -755563005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_188
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d752d561a19b2b43aec0b4b0cf585df
+      internalID: -2064679901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_189
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1254d9d0b7d243ac2b93b01d324aa
+      internalID: 211104419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_190
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd926b124c14444aa1f23a0d021a4a0
+      internalID: 1851691757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_191
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e289c75d0d1a645958825c3d027367
+      internalID: -981970243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_192
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea283453f07eec4396ca22566adbfac
+      internalID: -1627142922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_193
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906c95887a78ab4eb83410fd6ac6d15
+      internalID: -881189227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_194
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 801
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef128d35d8463499dca5132f57383c
+      internalID: -1987392824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc477cf0b83f1f4ebc562cf323356e5
+      internalID: -998253285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_196
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9addd28ecb72d4c48b95fe0023122a81
+      internalID: 1629185659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_197
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d688df99711314ca07920bf2bfa392
+      internalID: -1491935970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_198
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d21e6d670cca7f44b5e5774c88eca0a
+      internalID: 1730505178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_199
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfbb822ddecb24aa597269693f1b42
+      internalID: 1779315958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_200
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f407eeba0184a47a09038141f51472
+      internalID: 2147182853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_201
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4453c96eebb7014fa9763ed72f33620
+      internalID: -851097783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_202
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f9aac1080c694d937928e0979f4fb
+      internalID: -1712417325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_203
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44f4f66d146fc8439e45498720d3465
+      internalID: 886242407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_204
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede26276809e7844396691b3382724df
+      internalID: 243597090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_205
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403353916e664a74b8e7f6264b27096f
+      internalID: 1366038425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_206
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222c01f3ef595b498f60ca9ae0d0032
+      internalID: -1001721354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_207
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7742b96e095bec846a6a03242104cf62
+      internalID: -306478153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_208
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e677c709605d0ad41b3984a09428ecf8
+      internalID: 1051957924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_209
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 401
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe6340b1fca2f34abd2e2128dab742b
+      internalID: -1082009183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b616670939de244b038bf2383c7fe7
+      internalID: 1271596385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_211
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8385b893ffbe754d9708bcf8a8e02b7
+      internalID: 1536658721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_212
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfcd82b882973e4e9fa55fe9c7e2290
+      internalID: 412757859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_213
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df258ad794f39c4996a1c9c128fafe2
+      internalID: 198886433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_214
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f97e94352ed34419b9b001fb93b4f2
+      internalID: 1575278125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_215
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f4311966cca9842bed14963b78d081
+      internalID: -1545948587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_216
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13719636de05994c92628be2e87ba01
+      internalID: 373602103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_217
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095b93c7437e39d48882370211157a25
+      internalID: -692783363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_218
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94afe6ba421dc224da545a79f08c18b8
+      internalID: -2096797377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_219
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0076f4af713ad2a4a9ecef94d1e681ef
+      internalID: -1231211808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_220
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac49002d602c644fafab681fc1e9197
+      internalID: 1170149232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_221
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb813bb2014b204438b8230fdc035971
+      internalID: -48132114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_222
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247477f5c1610f458072cdb2489532f
+      internalID: 902525758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_223
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace5569be817d7240b72f3e7ba1062ff
+      internalID: 1990672215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Wall - persegi_224
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3c6118b89b80e4086a42e9370abb46
+      internalID: -2109293616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Background_Wall - persegi_0: 1182551174
+      Background_Wall - persegi_1: -2056925164
+      Background_Wall - persegi_10: 1366844608
+      Background_Wall - persegi_100: 289429681
+      Background_Wall - persegi_101: 910414328
+      Background_Wall - persegi_102: -1363712547
+      Background_Wall - persegi_103: -1376721202
+      Background_Wall - persegi_104: -1584965920
+      Background_Wall - persegi_105: -905577284
+      Background_Wall - persegi_106: 783575112
+      Background_Wall - persegi_107: 1418365091
+      Background_Wall - persegi_108: 2024044475
+      Background_Wall - persegi_109: 572414481
+      Background_Wall - persegi_11: -1271740097
+      Background_Wall - persegi_110: 1755645977
+      Background_Wall - persegi_111: -497974501
+      Background_Wall - persegi_112: -1164120961
+      Background_Wall - persegi_113: 668026968
+      Background_Wall - persegi_114: 375553071
+      Background_Wall - persegi_115: 204980321
+      Background_Wall - persegi_116: 39024633
+      Background_Wall - persegi_117: -1685743722
+      Background_Wall - persegi_118: 1730238159
+      Background_Wall - persegi_119: -26839
+      Background_Wall - persegi_12: 1475296531
+      Background_Wall - persegi_120: -1622764045
+      Background_Wall - persegi_121: -1772202813
+      Background_Wall - persegi_122: -177039454
+      Background_Wall - persegi_123: -315072607
+      Background_Wall - persegi_124: 1129738339
+      Background_Wall - persegi_125: 1436299661
+      Background_Wall - persegi_126: 447374470
+      Background_Wall - persegi_127: -2088850921
+      Background_Wall - persegi_128: -916765537
+      Background_Wall - persegi_129: 40457610
+      Background_Wall - persegi_13: -1970702093
+      Background_Wall - persegi_130: -1068677903
+      Background_Wall - persegi_131: 882613806
+      Background_Wall - persegi_132: 1465505693
+      Background_Wall - persegi_133: -1231094404
+      Background_Wall - persegi_134: -953892916
+      Background_Wall - persegi_135: -362341996
+      Background_Wall - persegi_136: -1823792255
+      Background_Wall - persegi_137: -1345893493
+      Background_Wall - persegi_138: -1272497018
+      Background_Wall - persegi_139: 1955592420
+      Background_Wall - persegi_14: 451203507
+      Background_Wall - persegi_140: -938812883
+      Background_Wall - persegi_141: 791380574
+      Background_Wall - persegi_142: 1814038540
+      Background_Wall - persegi_143: 618335228
+      Background_Wall - persegi_144: -89447024
+      Background_Wall - persegi_145: -36173284
+      Background_Wall - persegi_146: -1213751036
+      Background_Wall - persegi_147: -312051868
+      Background_Wall - persegi_148: 98838107
+      Background_Wall - persegi_149: -61205776
+      Background_Wall - persegi_15: 943099813
+      Background_Wall - persegi_150: 1531854157
+      Background_Wall - persegi_151: -2004492906
+      Background_Wall - persegi_152: 1360580011
+      Background_Wall - persegi_153: -469917583
+      Background_Wall - persegi_154: 1811062899
+      Background_Wall - persegi_155: -1471414303
+      Background_Wall - persegi_156: -1567771394
+      Background_Wall - persegi_157: -199731457
+      Background_Wall - persegi_158: 333791959
+      Background_Wall - persegi_159: 750123506
+      Background_Wall - persegi_16: 505087048
+      Background_Wall - persegi_160: -818495399
+      Background_Wall - persegi_161: 78697965
+      Background_Wall - persegi_162: 651014645
+      Background_Wall - persegi_163: 1277107797
+      Background_Wall - persegi_164: -2143968858
+      Background_Wall - persegi_165: 1331565423
+      Background_Wall - persegi_166: 219935609
+      Background_Wall - persegi_167: 1948700335
+      Background_Wall - persegi_168: -659373244
+      Background_Wall - persegi_169: -1278926514
+      Background_Wall - persegi_17: 1304241
+      Background_Wall - persegi_170: 1542454187
+      Background_Wall - persegi_171: -1922332712
+      Background_Wall - persegi_172: -1414809518
+      Background_Wall - persegi_173: -1715075774
+      Background_Wall - persegi_174: 137241888
+      Background_Wall - persegi_175: 422792637
+      Background_Wall - persegi_176: -94416965
+      Background_Wall - persegi_177: -1766171904
+      Background_Wall - persegi_178: 1415553085
+      Background_Wall - persegi_179: -1277646788
+      Background_Wall - persegi_18: -1321206212
+      Background_Wall - persegi_180: -994026529
+      Background_Wall - persegi_181: -903782468
+      Background_Wall - persegi_182: -1058142306
+      Background_Wall - persegi_183: 620067468
+      Background_Wall - persegi_184: -1199380140
+      Background_Wall - persegi_185: 577524765
+      Background_Wall - persegi_186: -888685110
+      Background_Wall - persegi_187: -755563005
+      Background_Wall - persegi_188: -2064679901
+      Background_Wall - persegi_189: 211104419
+      Background_Wall - persegi_19: 458731515
+      Background_Wall - persegi_190: 1851691757
+      Background_Wall - persegi_191: -981970243
+      Background_Wall - persegi_192: -1627142922
+      Background_Wall - persegi_193: -881189227
+      Background_Wall - persegi_194: -1987392824
+      Background_Wall - persegi_195: -998253285
+      Background_Wall - persegi_196: 1629185659
+      Background_Wall - persegi_197: -1491935970
+      Background_Wall - persegi_198: 1730505178
+      Background_Wall - persegi_199: 1779315958
+      Background_Wall - persegi_2: 32125377
+      Background_Wall - persegi_20: 943889193
+      Background_Wall - persegi_200: 2147182853
+      Background_Wall - persegi_201: -851097783
+      Background_Wall - persegi_202: -1712417325
+      Background_Wall - persegi_203: 886242407
+      Background_Wall - persegi_204: 243597090
+      Background_Wall - persegi_205: 1366038425
+      Background_Wall - persegi_206: -1001721354
+      Background_Wall - persegi_207: -306478153
+      Background_Wall - persegi_208: 1051957924
+      Background_Wall - persegi_209: -1082009183
+      Background_Wall - persegi_21: 1488117590
+      Background_Wall - persegi_210: 1271596385
+      Background_Wall - persegi_211: 1536658721
+      Background_Wall - persegi_212: 412757859
+      Background_Wall - persegi_213: 198886433
+      Background_Wall - persegi_214: 1575278125
+      Background_Wall - persegi_215: -1545948587
+      Background_Wall - persegi_216: 373602103
+      Background_Wall - persegi_217: -692783363
+      Background_Wall - persegi_218: -2096797377
+      Background_Wall - persegi_219: -1231211808
+      Background_Wall - persegi_22: -249174243
+      Background_Wall - persegi_220: 1170149232
+      Background_Wall - persegi_221: -48132114
+      Background_Wall - persegi_222: 902525758
+      Background_Wall - persegi_223: 1990672215
+      Background_Wall - persegi_224: -2109293616
+      Background_Wall - persegi_23: 257518884
+      Background_Wall - persegi_24: 1922437466
+      Background_Wall - persegi_25: 1643760079
+      Background_Wall - persegi_26: -583032296
+      Background_Wall - persegi_27: -1302051776
+      Background_Wall - persegi_28: 1663986632
+      Background_Wall - persegi_29: 167597362
+      Background_Wall - persegi_3: -1682209055
+      Background_Wall - persegi_30: -927020921
+      Background_Wall - persegi_31: 1741260480
+      Background_Wall - persegi_32: -1371729683
+      Background_Wall - persegi_33: -526178011
+      Background_Wall - persegi_34: -1409038189
+      Background_Wall - persegi_35: -1370795992
+      Background_Wall - persegi_36: -1344959710
+      Background_Wall - persegi_37: -169516678
+      Background_Wall - persegi_38: 1040290194
+      Background_Wall - persegi_39: 1521241491
+      Background_Wall - persegi_4: 87218675
+      Background_Wall - persegi_40: 148750902
+      Background_Wall - persegi_41: -342688556
+      Background_Wall - persegi_42: 1419056720
+      Background_Wall - persegi_43: 1642696623
+      Background_Wall - persegi_44: -53418985
+      Background_Wall - persegi_45: 1812234656
+      Background_Wall - persegi_46: 538432177
+      Background_Wall - persegi_47: -96627843
+      Background_Wall - persegi_48: -447196569
+      Background_Wall - persegi_49: 1615306308
+      Background_Wall - persegi_5: -841691906
+      Background_Wall - persegi_50: -1560071560
+      Background_Wall - persegi_51: -1153854855
+      Background_Wall - persegi_52: -1983231105
+      Background_Wall - persegi_53: -2012544190
+      Background_Wall - persegi_54: 1938189702
+      Background_Wall - persegi_55: -1074957876
+      Background_Wall - persegi_56: 1454834409
+      Background_Wall - persegi_57: 1117056035
+      Background_Wall - persegi_58: 888585126
+      Background_Wall - persegi_59: -1256378876
+      Background_Wall - persegi_6: -1640861750
+      Background_Wall - persegi_60: 139217064
+      Background_Wall - persegi_61: 1277217745
+      Background_Wall - persegi_62: 1881174655
+      Background_Wall - persegi_63: -1703015979
+      Background_Wall - persegi_64: -2076756733
+      Background_Wall - persegi_65: -2135752428
+      Background_Wall - persegi_66: -746460002
+      Background_Wall - persegi_67: -1033614258
+      Background_Wall - persegi_68: -1500728222
+      Background_Wall - persegi_69: 1359891514
+      Background_Wall - persegi_7: -1804037442
+      Background_Wall - persegi_70: -1052368987
+      Background_Wall - persegi_71: 1405153678
+      Background_Wall - persegi_72: -220387881
+      Background_Wall - persegi_73: 1723652064
+      Background_Wall - persegi_74: 2104433847
+      Background_Wall - persegi_75: -1224327873
+      Background_Wall - persegi_76: 1035390648
+      Background_Wall - persegi_77: 1150148921
+      Background_Wall - persegi_78: -1791474408
+      Background_Wall - persegi_79: -396604860
+      Background_Wall - persegi_8: -1212317416
+      Background_Wall - persegi_80: -2035600020
+      Background_Wall - persegi_81: -629723782
+      Background_Wall - persegi_82: 1896659353
+      Background_Wall - persegi_83: 1902065297
+      Background_Wall - persegi_84: -808349825
+      Background_Wall - persegi_85: -906902907
+      Background_Wall - persegi_86: 918805382
+      Background_Wall - persegi_87: -2014116600
+      Background_Wall - persegi_88: -784298729
+      Background_Wall - persegi_89: 250990248
+      Background_Wall - persegi_9: 1951289485
+      Background_Wall - persegi_90: 561778446
+      Background_Wall - persegi_91: -208068797
+      Background_Wall - persegi_92: 164395184
+      Background_Wall - persegi_93: -2033301181
+      Background_Wall - persegi_94: -201600572
+      Background_Wall - persegi_95: 1966708577
+      Background_Wall - persegi_96: 1379377305
+      Background_Wall - persegi_97: -1341345914
+      Background_Wall - persegi_98: 756949457
+      Background_Wall - persegi_99: 1801732254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
