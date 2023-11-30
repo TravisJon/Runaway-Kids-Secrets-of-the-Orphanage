@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private int airCount;
     public bool isGrounded;
     public bool isCrouching;
+    public bool isRunning;
 
     private Vector2 normalCollSize;
     private Vector2 normalCollOffs;
@@ -55,12 +56,12 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = false;
         }
 
-        if (dirX == 0 && isGrounded)
+        if (dirX == 0 && isGrounded && !isCrouching && !isRunning)
         {
             anim.Play("Player_Idle");
         }
 
-        if(dirX != 0 && isGrounded)
+        if(dirX != 0 && isGrounded && !isCrouching && !isRunning)
         {
             anim.Play("Player_Walk");
         }
@@ -68,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && airCount < totalJump)
+        if (Input.GetButtonDown("Jump") && airCount < totalJump && !isCrouching)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             airCount++;
@@ -98,13 +99,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Run()
     {
-        if (Input.GetKey(KeyCode.LeftShift)) 
+        if (Input.GetKey(KeyCode.LeftShift) && dirX != 0 && !isCrouching) 
         {
+            isRunning = true;
             moveSpeed = 8f;
         }
         else 
-        { 
+        {
+            isRunning = false;
             moveSpeed = 3f; 
+        }
+        if (dirX != 0 && isGrounded && !isCrouching && isRunning)
+        {
+            anim.Play("Player_Run");
         }
 
         //UpdateAnimationState();
@@ -117,10 +124,11 @@ public class PlayerMovement : MonoBehaviour
             isCrouching = true;
             GetComponent<BoxCollider2D>().size = new Vector2(0.7992616f, 1.52f);
             GetComponent<BoxCollider2D>().offset = new Vector2(0.007851839f, -0.8347909f);
-            if (Input.GetButtonDown("Jump"))
+            anim.Play("Player_Crouch");
+            /*if (Input.GetButtonDown("Jump"))
             {
                 rb.velocity = new Vector2(rb.velocity.x, 0f);
-            }
+            }*/
         }
         else
         {
