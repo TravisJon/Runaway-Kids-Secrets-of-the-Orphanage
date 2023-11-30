@@ -7,10 +7,12 @@ public class PickUpItem : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private bool pickUpAllowed;
+    private Inventory inventory;
+    public GameObject item;
 
     void Start()
     {
-        
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
     // Update is called once per frame
@@ -18,7 +20,7 @@ public class PickUpItem : MonoBehaviour
     {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.F)) 
         {
-            PickUp();
+            pickUp();
         }
     }
 
@@ -36,9 +38,36 @@ public class PickUpItem : MonoBehaviour
             pickUpAllowed = false;
         }
     }
-    private void PickUp()
+
+    private void pickUp()
     {
-        Destroy(gameObject);
+        for (int i = 0; i < inventory.slots.Length; i++)
+        {
+            if (inventory.isFull[i] == false)
+            {
+                inventory.isFull[i] = true;
+                Instantiate(item, inventory.slots[i].transform, false);
+                Destroy(gameObject);
+                break;
+            }
+        }
     }
+    /*
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            for (int i = 0; i <inventory.slots.Length; i++)
+            {
+                if (inventory.isFull[i] == false)
+                {
+                    inventory.isFull[i] = true;
+                    Instantiate(itemButton, inventory.slots[i].transform, false);
+                    Destroy(gameObject);
+                    break;
+                }
+            }
+        }
+    }*/
 
 }
