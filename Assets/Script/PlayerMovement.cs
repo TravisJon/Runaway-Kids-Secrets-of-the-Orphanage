@@ -45,7 +45,26 @@ public class PlayerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-        UpdateAnimationState();
+        if(dirX < 0)
+        {
+            sprite.flipX = true;
+        }
+
+        if (dirX > 0)
+        {
+            sprite.flipX = false;
+        }
+
+        if (dirX == 0 && isGrounded)
+        {
+            anim.Play("Player_Idle");
+        }
+
+        if(dirX != 0 && isGrounded)
+        {
+            anim.Play("Player_Walk");
+        }
+        //UpdateAnimationState();
     }
     private void Jump()
     {
@@ -55,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
             airCount++;
         }
 
-        UpdateAnimationState();
+        //UpdateAnimationState();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -63,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
         {
             airCount = 0;
             isGrounded = true;
+
+            //anim.Play("Player_Falling");
         }
     }
 
@@ -71,6 +92,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.tag == "Ground")
         {
             isGrounded = false;
+            anim.Play("Player_Jump");
         }
     }
 
@@ -85,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
             moveSpeed = 3f; 
         }
 
-        UpdateAnimationState();
+        //UpdateAnimationState();
     }
 
     private void Crouch()
@@ -108,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void UpdateAnimationState()
+    /*private void UpdateAnimationState()
     {
         MovementState state;
 
@@ -137,5 +159,5 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetInteger("state", (int)state);
-    }
+    }*/
 }
