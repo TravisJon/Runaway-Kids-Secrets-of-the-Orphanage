@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     private float dirX = 0f;
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float jumpForce = 14f;
+    [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float jumpForce = 8f;
     [SerializeField]
     private int totalJump;
     private int airCount;
@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 normalCollSize;
     private Vector2 normalCollOffs;
+
+    private enum MovementState { idle, walk, jumping, falling }
 
     // Start is called before the first frame update
     private void Start()
@@ -42,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+
+        UpdateAnimationState();
     }
     private void Jump()
     {
@@ -50,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             airCount++;
         }
+
+        UpdateAnimationState();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -72,11 +78,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift)) 
         {
-            moveSpeed = 14f;
+            moveSpeed = 10f;
         }
         else 
         { 
-            moveSpeed = 5f; 
+            moveSpeed = 3f; 
         }
 
         UpdateAnimationState();
@@ -102,24 +108,34 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
-
-
     private void UpdateAnimationState()
     {
+        MovementState state;
+
         if (dirX > 0f)
         {
-            anim.SetBool("walk", true);
+            state = MovementState.walk;
             sprite.flipX = false;
         }
         else if (dirX < 0f)
         {
-            anim.SetBool("walk", true);
+            state = MovementState.walk;
             sprite.flipX = true;
         }
         else
         {
-            anim.SetBool("walk", false);
+            state = MovementState.idle;
         }
+
+        if (rb.velocity.y > .1f)
+        {
+            state = MovementState.jumping;
+        }
+        else if (rb.velocity.y < -.1f)
+        {
+            state = MovementState.falling;
+        }
+
+        anim.SetInteger("state", (int)state);
     }
 }
