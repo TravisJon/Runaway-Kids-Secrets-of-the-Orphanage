@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5142755293534176883}
   - component: {fileID: 1135704659883466657}
+  - component: {fileID: 6286325614823124772}
   - component: {fileID: 1731117750727148458}
   m_Layer: 5
   m_Name: rope
@@ -45,6 +46,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445366253167578156}
   m_CullTransparentMesh: 1
+--- !u!114 &6286325614823124772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445366253167578156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ac18b59d399a24ab733b3aa396944b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 7662374100466165213, guid: 817000f2ddb35804a9cd3ffe9ff41583, type: 3}
 --- !u!114 &1731117750727148458
 MonoBehaviour:
   m_ObjectHideFlags: 0

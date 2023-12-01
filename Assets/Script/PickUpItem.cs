@@ -8,7 +8,7 @@ public class PickUpItem : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private bool pickUpAllowed;
     private Inventory inventory;
-    public GameObject item;
+    public GameObject items;
 
     void Start()
     {
@@ -46,7 +46,7 @@ public class PickUpItem : MonoBehaviour
             if (inventory.isFull[i] == false)
             {
                 inventory.isFull[i] = true;
-                Instantiate(item, inventory.slots[i].transform, false);
+                Instantiate(items, inventory.slots[i].transform, false);
                 Destroy(gameObject);
                 break;
             }

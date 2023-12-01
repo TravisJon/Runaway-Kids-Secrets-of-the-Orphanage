@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3667885424352490187}
   - component: {fileID: 3383217756688231544}
+  - component: {fileID: 1921983082846164541}
   - component: {fileID: 7001305430170449445}
   m_Layer: 5
   m_Name: saw
@@ -45,6 +46,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324951087501290082}
   m_CullTransparentMesh: 1
+--- !u!114 &1921983082846164541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324951087501290082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ac18b59d399a24ab733b3aa396944b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4990534697650863952, guid: 63089ee7e88a76542a38ef9a53e02824, type: 3}
 --- !u!114 &7001305430170449445
 MonoBehaviour:
   m_ObjectHideFlags: 0
