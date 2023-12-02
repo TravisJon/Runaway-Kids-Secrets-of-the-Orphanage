@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 9033563182747102847, guid: c90483dd930c9f04c9c14163d1350be4, type: 3}
+  key: {fileID: 9033563182747102847, guid: c90483dd930c9f04c9c14163d1350be4, type: 3}
 --- !u!61 &5561321168211344667
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class PickUpItem : MonoBehaviour
     [SerializeField] private bool pickUpAllowed;
     private Inventory inventory;
     public GameObject items;
+    public GameObject key;
 
     void Start()
     {
@@ -48,6 +49,14 @@ public class PickUpItem : MonoBehaviour
                 inventory.isFull[i] = true;
                 Instantiate(items, inventory.slots[i].transform, false);
                 Destroy(gameObject);
+                if (items == key)
+                {
+                    inventory.isUnlock = true;
+                }
+                else
+                {
+                    inventory.isUnlock = false;
+                }
                 break;
             }
         }

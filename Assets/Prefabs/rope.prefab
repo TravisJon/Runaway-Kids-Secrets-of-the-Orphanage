@@ -59,6 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 7662374100466165213, guid: 817000f2ddb35804a9cd3ffe9ff41583, type: 3}
+  key: {fileID: 9033563182747102847, guid: c90483dd930c9f04c9c14163d1350be4, type: 3}
 --- !u!114 &1731117750727148458
 MonoBehaviour:
   m_ObjectHideFlags: 0
