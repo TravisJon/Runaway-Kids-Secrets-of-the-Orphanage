@@ -83,8 +83,6 @@ public class PlayerMovement : MonoBehaviour
         {
             airCount = 0;
             isGrounded = true;
-
-            //anim.Play("Player_Falling");
         }
     }
 
