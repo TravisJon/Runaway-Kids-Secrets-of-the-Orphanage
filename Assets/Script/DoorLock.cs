@@ -3,19 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Door : MonoBehaviour
+public class DoorLock : MonoBehaviour
 {
+    private Inventory inventory;
     [SerializeField] private bool tryOpenAllowed;
-    // Start is called before the first frame update
     void Start()
     {
-        
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (tryOpenAllowed && Input.GetKeyDown(KeyCode.E))
+        {
+            tryingOpen();
+        }
+    }
+
+    private void tryingOpen()
+    {
+        if (inventory.isUnlock == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
