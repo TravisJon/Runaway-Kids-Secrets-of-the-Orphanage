@@ -342,6 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tryOpenAllowed: 0
+  sceneToLoad: Scene 2
 --- !u!1 &150737213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1786,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isRunning: 0
+  bar: {fileID: 0}
 --- !u!1 &1727586558
 GameObject:
   m_ObjectHideFlags: 0

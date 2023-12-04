@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tryOpenAllowed: 0
-  sceneToLoad: 
+  sceneToLoad: Scene 1
 --- !u!61 &127292149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tryOpenAllowed: 0
-  sceneToLoad: 
+  sceneToLoad: Scene 3
 --- !u!212 &1250099561
 SpriteRenderer:
   m_ObjectHideFlags: 0

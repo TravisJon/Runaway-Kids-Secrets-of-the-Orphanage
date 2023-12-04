@@ -957,6 +957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tryOpenAllowed: 0
+  sceneToLoad: Scene 2
 --- !u!61 &820775318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1897,6 +1898,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isRunning: 0
+  bar: {fileID: 0}
 --- !u!114 &1660862958
 MonoBehaviour:
   m_ObjectHideFlags: 0
