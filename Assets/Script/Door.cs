@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     [SerializeField] private bool tryOpenAllowed;
+    [SerializeField] private string sceneToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class Door : MonoBehaviour
     {
         if (tryOpenAllowed && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

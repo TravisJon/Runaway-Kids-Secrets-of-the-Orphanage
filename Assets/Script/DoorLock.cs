@@ -7,9 +7,12 @@ public class DoorLock : MonoBehaviour
 {
     private Inventory inventory;
     [SerializeField] private bool tryOpenAllowed;
+    [SerializeField] private string sceneToLoad;
+    
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+
     }
     private void Update()
     {
@@ -23,7 +26,7 @@ public class DoorLock : MonoBehaviour
     {
         if (inventory.isUnlock == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

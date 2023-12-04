@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,6 +21,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 normalCollSize;
     private Vector2 normalCollOffs;
+
+    [SerializeField]
+    private Image bar;
+    float valueToLerp;
+
+    float speedSmooth = 0;
 
     private enum MovementState { idle, walk, jumping, falling }
 
@@ -46,7 +53,26 @@ public class PlayerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-        if(dirX < 0)
+        float vSpeed = Vector2.Distance(rb.velocity, new Vector2(0f, 0f));
+        float bSpeed = vSpeed / 8f;
+
+
+
+        if (bSpeed != bar.fillAmount)
+        {
+            speedSmooth += Time.deltaTime * 0.5f;
+            valueToLerp = Mathf.Lerp(bar.fillAmount, bSpeed, speedSmooth);
+        }
+
+        if (bSpeed == bar.fillAmount)
+        {
+            speedSmooth = 0;
+
+        }
+
+        bar.fillAmount = valueToLerp;
+
+        if (dirX < 0)
         {
             sprite.flipX = true;
         }

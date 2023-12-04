@@ -53,10 +53,6 @@ public class PickUpItem : MonoBehaviour
                 {
                     inventory.isUnlock = true;
                 }
-                else
-                {
-                    inventory.isUnlock = false;
-                }
                 break;
             }
         }
