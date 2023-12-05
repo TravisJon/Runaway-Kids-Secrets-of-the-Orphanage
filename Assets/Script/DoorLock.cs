@@ -16,7 +16,7 @@ public class DoorLock : MonoBehaviour
     }
     private void Update()
     {
-        if (tryOpenAllowed && Input.GetKeyDown(KeyCode.E))
+        if (tryOpenAllowed && Input.GetKeyDown(KeyCode.R))
         {
             tryingOpen();
         }

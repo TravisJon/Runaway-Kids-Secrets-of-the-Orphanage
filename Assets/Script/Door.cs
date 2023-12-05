@@ -16,7 +16,7 @@ public class Door : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (tryOpenAllowed && Input.GetKeyDown(KeyCode.E))
+        if (tryOpenAllowed && Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(sceneToLoad);
         }

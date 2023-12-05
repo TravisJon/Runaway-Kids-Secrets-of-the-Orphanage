@@ -11,22 +11,25 @@ public class PlayerMovement : MonoBehaviour
 
     private float dirX = 0f;
     [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float runSpeed = 8f;
     [SerializeField] private float jumpForce = 8f;
-    [SerializeField]
-    private int totalJump;
+    [SerializeField] private int totalJump;
     private int airCount;
     public bool isGrounded;
     public bool isCrouching;
     public bool isRunning;
+    private bool isPlayerRunning = false;
 
     private Vector2 normalCollSize;
     private Vector2 normalCollOffs;
 
     [SerializeField]
     private Image bar;
-    float valueToLerp;
 
-    float speedSmooth = 0;
+    [SerializeField] private float maxRunTime = 5f; 
+    private float currentRunTime = 0f; 
+    private bool isLosing = false; 
+
 
     private enum MovementState { idle, walk, jumping, falling }
 
@@ -51,26 +54,7 @@ public class PlayerMovement : MonoBehaviour
     private void Move()
     {
         dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-
-        float vSpeed = Vector2.Distance(rb.velocity, new Vector2(0f, 0f));
-        float bSpeed = vSpeed / 8f;
-
-
-
-        if (bSpeed != bar.fillAmount)
-        {
-            speedSmooth += Time.deltaTime * 0.5f;
-            valueToLerp = Mathf.Lerp(bar.fillAmount, bSpeed, speedSmooth);
-        }
-
-        if (bSpeed == bar.fillAmount)
-        {
-            speedSmooth = 0;
-
-        }
-
-        bar.fillAmount = valueToLerp;
+        rb.velocity = new Vector2(dirX * (isRunning ? runSpeed : moveSpeed), rb.velocity.y);
 
         if (dirX < 0)
         {
@@ -87,11 +71,10 @@ public class PlayerMovement : MonoBehaviour
             anim.Play("Player_Idle");
         }
 
-        if(dirX != 0 && isGrounded && !isCrouching && !isRunning)
+        if (dirX != 0 && isGrounded && !isCrouching && !isRunning)
         {
             anim.Play("Player_Walk");
         }
-        //UpdateAnimationState();
     }
     private void Jump()
     {
@@ -123,23 +106,62 @@ public class PlayerMovement : MonoBehaviour
 
     private void Run()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && dirX != 0 && !isCrouching) 
+        if (Input.GetKey(KeyCode.LeftShift) && dirX != 0 && !isCrouching)
         {
             isRunning = true;
             moveSpeed = 8f;
+
+            if (!isPlayerRunning)
+            {
+                isPlayerRunning = true;
+                StartCoroutine(UpdateRunningTime());
+            }
+
+            float fillAmount = Mathf.Clamp01(currentRunTime / maxRunTime);
+            bar.fillAmount = fillAmount;
+
+            if (currentRunTime >= maxRunTime)
+            {
+                LoseGame();
+            }
         }
-        else 
+        else
         {
             isRunning = false;
-            moveSpeed = 3f; 
+            moveSpeed = 3f;
+
+            if (isPlayerRunning)
+            {
+                isPlayerRunning = false;
+            }
         }
-        if (dirX != 0 && isGrounded && !isCrouching && isRunning)
+
+        if (isRunning && dirX != 0 && isGrounded && !isCrouching)
         {
             anim.Play("Player_Run");
         }
-
-        //UpdateAnimationState();
+        else if (!isRunning && dirX != 0 && isGrounded && !isCrouching)
+        {
+            anim.Play("Player_Walk");
+        }
     }
+
+    private IEnumerator UpdateRunningTime()
+    {
+        while (isPlayerRunning)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            currentRunTime += Time.deltaTime;
+        }
+    }
+
+
+    private void LoseGame()
+    {
+        Debug.Log("Game Over");
+        isLosing = true;
+    }
+
 
     private void Crouch()
     {
