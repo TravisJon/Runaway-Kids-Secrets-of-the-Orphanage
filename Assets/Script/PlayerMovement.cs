@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     public bool isCrouching;
     public bool isRunning;
+    private bool canRun = true;
     private bool isPlayerRunning = false;
 
     private Vector2 normalCollSize;
@@ -28,7 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float maxRunTime = 5f; 
     private float currentRunTime = 0f; 
-    private bool isLosing = false; 
+    private bool isFull = false;
+    private bool isDecreasingRunTime = false;
 
 
     private enum MovementState { idle, walk, jumping, falling }
@@ -106,33 +108,71 @@ public class PlayerMovement : MonoBehaviour
 
     private void Run()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && dirX != 0 && !isCrouching)
+        if (canRun && Input.GetKey(KeyCode.LeftShift) && dirX != 0 && !isCrouching)
         {
-            isRunning = true;
-            moveSpeed = 8f;
-
-            if (!isPlayerRunning)
+            if (currentRunTime < maxRunTime) // Check if the bar is not full
             {
-                isPlayerRunning = true;
-                StartCoroutine(UpdateRunningTime());
+                isRunning = true;
+                moveSpeed = 8f;
+
+                if (!isPlayerRunning)
+                {
+                    isPlayerRunning = true;
+                    StartCoroutine(UpdateRunningTime());
+                }
+
+                float fillAmount = Mathf.Clamp01(currentRunTime / maxRunTime);
+                bar.fillAmount = fillAmount;
+
+                if (currentRunTime >= maxRunTime)
+                {
+                    canRun = false;
+                    BarFull();
+                }
+
+                if (isDecreasingRunTime)
+                {
+                    StopCoroutine(DecreaseRunningTime());
+                    isDecreasingRunTime = false;
+                }
             }
-
-            float fillAmount = Mathf.Clamp01(currentRunTime / maxRunTime);
-            bar.fillAmount = fillAmount;
-
-            if (currentRunTime >= maxRunTime)
+            else
             {
-                LoseGame();
+                if (!canRun)
+                {
+                    isRunning = false;
+                    moveSpeed = 3f;
+
+                    if (isPlayerRunning)
+                    {
+                        isPlayerRunning = false;
+
+                        if (!isDecreasingRunTime)
+                        {
+                            isDecreasingRunTime = true;
+                            StartCoroutine(DecreaseRunningTime());
+                        }
+                    }
+                }
             }
         }
         else
         {
             isRunning = false;
             moveSpeed = 3f;
-
+            if (!canRun && currentRunTime <= 0f)
+            {
+                canRun = true;
+            }
             if (isPlayerRunning)
             {
                 isPlayerRunning = false;
+
+                if (!isDecreasingRunTime)
+                {
+                    isDecreasingRunTime = true;
+                    StartCoroutine(DecreaseRunningTime());
+                }
             }
         }
 
@@ -146,20 +186,43 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private IEnumerator UpdateRunningTime()
+
+    private IEnumerator DecreaseRunningTime()
     {
-        while (isPlayerRunning)
+        while (isDecreasingRunTime && currentRunTime > 0f)
         {
             yield return new WaitForSeconds(Time.deltaTime);
-            currentRunTime += Time.deltaTime;
+            currentRunTime -= Time.deltaTime;
+            float fillAmount = Mathf.Clamp01(currentRunTime / maxRunTime);
+            bar.fillAmount = fillAmount;
+
+            if (currentRunTime <= 0f)
+            {
+                canRun = true;
+            }
+        }
+    }
+    private IEnumerator UpdateRunningTime()
+    {
+        while (isPlayerRunning && currentRunTime < maxRunTime)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            // Increase the currentRunTime more quickly
+            currentRunTime += Time.deltaTime * 2f; // You can adjust the multiplier to control the speed
+        }
+
+        if (currentRunTime >= maxRunTime)
+        {
+            BarFull();
         }
     }
 
 
-    private void LoseGame()
+    private void BarFull()
     {
         Debug.Log("Game Over");
-        isLosing = true;
+        isFull = true;
+        canRun = false;
     }
 
 
