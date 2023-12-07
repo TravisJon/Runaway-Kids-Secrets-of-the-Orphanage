@@ -44,12 +44,12 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
-    public void Settings()
+    /*public void Settings()
     {
 
-    }
+    }*/
 
-    public void Quit()
+    public void Accept()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Start Screen");
