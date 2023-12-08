@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isDecreasingRunTime = false;
 
 
-    private enum MovementState { idle, walk, jumping, falling }
+    //private enum MovementState { idle, walk, jumping, falling }
 
     // Start is called before the first frame update
     private void Start()
