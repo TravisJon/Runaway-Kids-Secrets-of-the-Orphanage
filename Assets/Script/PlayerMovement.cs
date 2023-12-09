@@ -76,7 +76,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX != 0 && isGrounded && !isCrouching && !isRunning)
         {
-            walkSoundEffect.Play();
             anim.Play("Player_Walk");
         }
     }
