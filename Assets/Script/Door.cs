@@ -8,19 +8,19 @@ public class Door : MonoBehaviour
     [SerializeField] private bool tryOpenAllowed;
     [SerializeField] private string sceneToLoad;
 
-    public GameObject handImage;
-    private bool isInteracting;
+    [SerializeField] private GameObject handImage;
+    [SerializeField] private bool isInteracting;
 
     // Start is called before the first frame update
     void Start()
     {
-        handImage.SetActive(false);
+ 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (tryOpenAllowed && isInteracting && Input.GetKeyDown(KeyCode.R))
+        if (tryOpenAllowed && isInteracting && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(sceneToLoad);
         }

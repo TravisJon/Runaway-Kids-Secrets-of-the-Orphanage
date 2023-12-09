@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isFull = false;
     private bool isDecreasingRunTime = false;
 
+    [SerializeField] private AudioSource walkSoundEffect;
 
     //private enum MovementState { idle, walk, jumping, falling }
 
@@ -75,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX != 0 && isGrounded && !isCrouching && !isRunning)
         {
+            walkSoundEffect.Play();
             anim.Play("Player_Walk");
         }
     }

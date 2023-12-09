@@ -9,18 +9,17 @@ public class DoorLock : MonoBehaviour
     [SerializeField] private bool tryOpenAllowed;
     [SerializeField] private string sceneToLoad;
 
-    public GameObject handImage;
-    private bool isInteracting;
+    [SerializeField] private GameObject handImage;
+    [SerializeField] private bool isInteracting;
 
     void Start()
     {
-        handImage.SetActive(false);
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 
     }
     private void Update()
     {
-        if (tryOpenAllowed && isInteracting && Input.GetKeyDown(KeyCode.R))
+        if (tryOpenAllowed && isInteracting && Input.GetKeyDown(KeyCode.E))
         {
             tryingOpen();
         }

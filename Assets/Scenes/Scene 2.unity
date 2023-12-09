@@ -745,6 +745,7 @@ MonoBehaviour:
   tryOpenAllowed: 0
   sceneToLoad: Scene 1
   handImage: {fileID: 1996785828}
+  isInteracting: 0
 --- !u!61 &127292149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2137,6 +2138,7 @@ MonoBehaviour:
   tryOpenAllowed: 0
   sceneToLoad: Scene 5
   handImage: {fileID: 1138220480}
+  isInteracting: 0
 --- !u!212 &771213836
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4107,6 +4109,7 @@ MonoBehaviour:
   tryOpenAllowed: 0
   sceneToLoad: Scene 4
   handImage: {fileID: 2051336134}
+  isInteracting: 0
 --- !u!212 &1730822278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4288,7 +4291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4dddb14d729b1b44ab42379f731b81f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: 037fd72d98560a8498cee29129a78b64, type: 3}
+  cursorTexture: {fileID: 2800000, guid: 5d42aa3e0ad33074f9eee2e5f430340e, type: 3}
 --- !u!4 &1787266544
 Transform:
   m_ObjectHideFlags: 0
