@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 639892934}
   - component: {fileID: 639892936}
   - component: {fileID: 639892937}
-  - component: {fileID: 639892935}
+  - component: {fileID: 639892939}
   - component: {fileID: 639892938}
   - component: {fileID: 639892933}
   m_Layer: 0
@@ -1848,22 +1848,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &639892935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639892931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66f8ee3ac833d544f8a6df24e9df2799, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoint:
-  - {fileID: 1075113046}
-  - {fileID: 1562912779}
-  speed: 2
 --- !u!50 &639892936
 Rigidbody2D:
   serializedVersion: 4
@@ -1981,6 +1965,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.152509, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &639892939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639892931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f8ee3ac833d544f8a6df24e9df2799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoint1: {fileID: 1075113046}
+  waypoint2: {fileID: 1562912779}
+  speed: 3
 --- !u!1 &751642842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,7 +2950,7 @@ Transform:
   m_GameObject: {fileID: 1075113046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: -7.82, z: 0}
+  m_LocalPosition: {x: -15.51, y: -7.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
