@@ -10,8 +10,21 @@ public class TimeController : MonoBehaviour
     [SerializeField] private float startHour;
     [SerializeField] private TextMeshProUGUI timeText;
     private DateTime currentTime;
+    public static TimeController instance;
 
     // Start is called before the first frame update
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         currentTime = DateTime.Now.Date + TimeSpan.FromHours(startHour);
@@ -29,7 +42,8 @@ public class TimeController : MonoBehaviour
 
         if (timeText != null )
         {
-            timeText.text = currentTime.ToString("HH:mm");
+            //timeText.text = currentTime.ToString("HH:mm");
+            timeText.text = string.Format("{0:hh:mm tt}", currentTime);
         }
     }
 }

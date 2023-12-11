@@ -12,6 +12,7 @@ public class DoorLock : MonoBehaviour
     [SerializeField] private GameObject handImage;
     [SerializeField] private bool isInteracting;
 
+    private Transform player;
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
@@ -29,6 +30,10 @@ public class DoorLock : MonoBehaviour
     {
         if (inventory.isUnlock == true)
         {
+            if (SceneManager.GetActiveScene().name == "Scene 2")
+            {
+                InGameDatabase.instance.playerPosition = player.position;
+            }
             SceneManager.LoadScene(sceneToLoad);
         }
     }
@@ -36,6 +41,8 @@ public class DoorLock : MonoBehaviour
     {
         if (collision.gameObject.name.Equals("Player"))
         {
+            player = collision.gameObject.transform;
+
             tryOpenAllowed = true;
             handImage.SetActive(true);
             isInteracting = true;

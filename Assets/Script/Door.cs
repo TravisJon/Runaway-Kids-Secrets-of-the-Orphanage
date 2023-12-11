@@ -11,6 +11,8 @@ public class Door : MonoBehaviour
     [SerializeField] private GameObject handImage;
     [SerializeField] private bool isInteracting;
 
+    private Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,11 @@ public class Door : MonoBehaviour
     {
         if (tryOpenAllowed && isInteracting && Input.GetKeyDown(KeyCode.E))
         {
+            if (SceneManager.GetActiveScene().name == "Scene 2")
+            {
+                InGameDatabase.instance.playerPosition = player.position;
+            }
+            
             SceneManager.LoadScene(sceneToLoad);
         }
     }
@@ -29,6 +36,8 @@ public class Door : MonoBehaviour
     {
         if (collision.gameObject.name.Equals("Player"))
         {
+            player = collision.gameObject.transform;
+
             tryOpenAllowed = true;
             handImage.SetActive(true);
             isInteracting = true;

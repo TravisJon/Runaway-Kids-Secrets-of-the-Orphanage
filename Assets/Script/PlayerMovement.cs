@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -39,6 +40,18 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        if (InGameDatabase.instance != null)
+        {
+            if (SceneManager.GetActiveScene().name == "Scene 2")
+            {
+                if (InGameDatabase.instance.playerPosition.x != 0f && InGameDatabase.instance.playerPosition.y != 0f)
+                {
+                    transform.position = InGameDatabase.instance.playerPosition;
+                }
+            }
+            
+        }
+
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
