@@ -1186,9 +1186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b72a3c887e182624abfa54c93faf7d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sfxAudioSource: {fileID: 0}
-  bgmAudioSource: {fileID: 0}
-  sfxClip: []
+  sfxAudioSource: {fileID: 1349430207}
+  bgmAudioSource: {fileID: 1479303788}
+  sfxClip:
+  - {fileID: 8300000, guid: 3b01e8be37e30f74f9d0ade29c70b595, type: 3}
   bgmClip: []
 --- !u!4 &395378620
 Transform:

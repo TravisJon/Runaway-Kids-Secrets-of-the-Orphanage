@@ -71,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * (isRunning ? runSpeed : moveSpeed), rb.velocity.y);
+        AudioPlayer.instance.PlaySFX(0);
 
         if (dirX < 0)
         {
