@@ -7,6 +7,7 @@ public class WaypointFollower : MonoBehaviour
 {
     public GameObject waypoint1;
     public GameObject waypoint2;
+    public GameObject player;
     private Rigidbody2D rb;
     private Animator anim;
     private Transform currentPoint;
@@ -24,6 +25,18 @@ public class WaypointFollower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (IsPlayerVisible())
+        {
+            ChasePlayer();
+        }
+        else
+        {
+            MoveBetweenWaypoints();
+        }
+    }
+
+    void MoveBetweenWaypoints()
+    {
         Vector2 point = currentPoint.position - transform.position;
         if (currentPoint == waypoint2.transform)
         {
@@ -33,7 +46,7 @@ public class WaypointFollower : MonoBehaviour
         {
             rb.velocity = new Vector2(-speed, 0);
         }
-        if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == waypoint2.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == waypoint2.transform)
         {
             flip();
             currentPoint = waypoint1.transform;
@@ -45,14 +58,34 @@ public class WaypointFollower : MonoBehaviour
         }
     }
 
-    private void flip()
+    void ChasePlayer()
+    {
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
+
+        if (direction.x > 0 && transform.localScale.x < 0)
+        {
+            flip();
+        }
+        else if (direction.x < 0 && transform.localScale.x > 0)
+        {
+            flip();
+        }
+    }
+
+    bool IsPlayerVisible()
+    {
+        return true;
+    }
+
+    void flip()
     {
         Vector3 localscale = transform.localScale;
         localscale.x *= -1;
-        transform.localScale = localscale;  
+        transform.localScale = localscale;
     }
 
-    private void OnDrawGizmos()
+    void OnDrawGizmos() 
     {
         Gizmos.DrawWireSphere(waypoint1.transform.position, 0.5f);
         Gizmos.DrawWireSphere(waypoint2.transform.position, 0.5f);
