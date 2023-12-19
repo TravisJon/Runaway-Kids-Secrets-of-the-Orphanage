@@ -15,6 +15,10 @@ public class UIMainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(TimeController.instance != null)
+        {
+            TimeController.instance.EndTimer();
+        }
         continueButton.onClick.AddListener(delegate { ContinueGame(); });
         newGameButton.onClick.AddListener(delegate { StartNewGame(); });
         settingsButton.onClick.AddListener(delegate { OpenSettings(); });

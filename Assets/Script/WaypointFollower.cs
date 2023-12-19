@@ -48,11 +48,21 @@ public class WaypointFollower : MonoBehaviour
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == waypoint2.transform)
         {
+            if (player.transform.position.x > transform.position.x)
+            {
+                IsVisible = true;
+            }
+            else { IsVisible = false; }
             flip();
             currentPoint = waypoint1.transform;
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == waypoint1.transform)
         {
+            if (player.transform.position.x < transform.position.x)
+            {
+                IsVisible = true;
+            }
+            else { IsVisible = false; }
             flip();
             currentPoint = waypoint2.transform;
         }
@@ -60,6 +70,8 @@ public class WaypointFollower : MonoBehaviour
 
     void ChasePlayer()
     {
+        Debug.Log("Chase");
+
         Vector2 direction = (player.transform.position - transform.position).normalized;
         rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
 
@@ -73,9 +85,11 @@ public class WaypointFollower : MonoBehaviour
         }
     }
 
+    private bool IsVisible;
+
     bool IsPlayerVisible()
     {
-        return true;
+        return IsVisible;
     }
 
     void flip()

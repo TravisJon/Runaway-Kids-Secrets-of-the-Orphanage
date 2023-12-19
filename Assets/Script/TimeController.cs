@@ -12,6 +12,12 @@ public class TimeController : MonoBehaviour
     private DateTime currentTime;
     public static TimeController instance;
 
+    public void EndTimer()
+    {
+        instance = null;
+        Destroy(gameObject);
+    }
+
     // Start is called before the first frame update
     private void Awake()
     {
