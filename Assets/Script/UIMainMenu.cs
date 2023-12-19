@@ -8,9 +8,11 @@ public class UIMainMenu : MonoBehaviour
     public Button continueButton;
     public Button newGameButton;
     public Button settingsButton;
+    public Button creditsButton;
     public Button quitButton;
 
     public GameObject SettingsScreen;
+    public GameObject CreditsScreen;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +21,11 @@ public class UIMainMenu : MonoBehaviour
         {
             TimeController.instance.EndTimer();
         }
+
         continueButton.onClick.AddListener(delegate { ContinueGame(); });
         newGameButton.onClick.AddListener(delegate { StartNewGame(); });
         settingsButton.onClick.AddListener(delegate { OpenSettings(); });
+        creditsButton.onClick.AddListener(delegate { OpenCredits(); });
         quitButton.onClick.AddListener(delegate { QuitGame(); });
     }
 
@@ -52,6 +56,12 @@ public class UIMainMenu : MonoBehaviour
     {
         gameObject.SetActive(false);
         SettingsScreen.SetActive(true);
+    }
+
+    private void OpenCredits()
+    {
+        gameObject.SetActive(false);
+        CreditsScreen.SetActive(true);
     }
 
     private void QuitGame()
