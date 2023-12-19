@@ -1,28 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ProgressInteract : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private GameObject handImage;
     [SerializeField] private bool isInteracting;
-    public static float progress;
+    public float holdDuration = 3f;
+    public Image fillCircle;
+
+    public float holdTimer = 0;
+    public bool isHolding = false;
+    public GameObject destroyer;
     void Start()
     {
-        ProgressInteract.progress = 1f;
+
     }
     void Update()
     {
-        if (isInteracting && Input.GetKey(KeyCode.F))
+        onHold();
+
+        if (isHolding)
         {
-            progress += 1f * Time.deltaTime;
-            progress = Mathf.Clamp01(progress);
+            holdTimer += Time.deltaTime;
+            fillCircle.fillAmount = Mathf.Clamp01(holdTimer / holdDuration);
+
+            if (holdTimer >= holdDuration)
+            {
+                Destroy(destroyer);
+            }
         }
-        else
+    }
+
+    public void onHold()
+    {
+        if (isInteracting && Input.GetKeyDown(KeyCode.F)) 
         {
-            progress = 0f;
+            isHolding = true;
         }
+        else if (isInteracting && (Input.GetKeyUp(KeyCode.F) || !Input.GetKey(KeyCode.F)))
+        {
+            resetHold();
+        }
+    }
+
+    public void resetHold()
+    {
+        isHolding = false;
+        holdTimer = 0;
+        fillCircle.fillAmount = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
