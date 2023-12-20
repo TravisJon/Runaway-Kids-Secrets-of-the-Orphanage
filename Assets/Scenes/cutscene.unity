@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 895373963}
   - component: {fileID: 895373962}
   - component: {fileID: 895373966}
+  - component: {fileID: 895373967}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -879,6 +880,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &895373967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895373960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3068a54feea6a745b63d40dea51a596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tryOpenAllowed: 0
+  sceneToLoad: Scene 1
+  handImage: {fileID: 0}
+  isInteracting: 0
 --- !u!1 &984644211
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +907,7 @@ GameObject:
   - component: {fileID: 984644214}
   - component: {fileID: 984644213}
   - component: {fileID: 984644212}
+  - component: {fileID: 984644215}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -972,6 +990,19 @@ Transform:
   - {fileID: 895373961}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984644215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984644211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250742ccd98331e4587e4ed41621a375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wait_time: 0
 --- !u!1 &1089823681
 GameObject:
   m_ObjectHideFlags: 0

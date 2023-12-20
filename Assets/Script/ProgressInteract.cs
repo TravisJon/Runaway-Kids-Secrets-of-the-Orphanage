@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ProgressInteract : MonoBehaviour
 {
@@ -16,7 +17,10 @@ public class ProgressInteract : MonoBehaviour
     public GameObject destroyer;
     void Start()
     {
-
+        if (TimeController.instance != null)
+        {
+            TimeController.instance.EndTimer();
+        }
     }
     void Update()
     {
@@ -30,6 +34,7 @@ public class ProgressInteract : MonoBehaviour
             if (holdTimer >= holdDuration)
             {
                 Destroy(destroyer);
+                SceneManager.LoadScene("CutScene2");
             }
         }
     }

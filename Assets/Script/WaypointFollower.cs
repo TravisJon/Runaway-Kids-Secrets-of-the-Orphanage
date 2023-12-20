@@ -12,6 +12,7 @@ public class WaypointFollower : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     public float speed;
+    public float chaseRange = 5f; // Jarak di mana musuh mulai mengejar pemain
 
     // Start is called before the first frame update
     void Start()
@@ -70,8 +71,6 @@ public class WaypointFollower : MonoBehaviour
 
     void ChasePlayer()
     {
-        Debug.Log("Chase");
-
         Vector2 direction = (player.transform.position - transform.position).normalized;
         rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
 
@@ -89,7 +88,9 @@ public class WaypointFollower : MonoBehaviour
 
     bool IsPlayerVisible()
     {
-        return IsVisible;
+        // Periksa apakah pemain berada dalam jarak chaseRange
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+        return distanceToPlayer < chaseRange;
     }
 
     void flip()
@@ -99,7 +100,7 @@ public class WaypointFollower : MonoBehaviour
         transform.localScale = localscale;
     }
 
-    void OnDrawGizmos() 
+    void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(waypoint1.transform.position, 0.5f);
         Gizmos.DrawWireSphere(waypoint2.transform.position, 0.5f);
