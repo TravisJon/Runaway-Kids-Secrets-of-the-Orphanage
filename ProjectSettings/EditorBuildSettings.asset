@@ -30,12 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 5.unity
     guid: ba1b5c84e2678cd48af7fde3cf14e315
   - enabled: 1
-    path: Assets/Scenes/Lantai 1.unity
-    guid: eb7823b41d875f8449e723a94059cdaf
-  - enabled: 1
     path: Assets/Scenes/CutScene2.unity
     guid: 3c79a36e30595c64e93069b3687b8303
   - enabled: 1
-    path: Assets/Scenes/cutscene2A.unity
-    guid: b0899fcabd0eaf7428061ee7d8f9cf65
+    path: Assets/Scenes/Lantai 1.unity
+    guid: eb7823b41d875f8449e723a94059cdaf
   m_configObjects: {}
