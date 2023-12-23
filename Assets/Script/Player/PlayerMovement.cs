@@ -99,6 +99,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && airCount < totalJump && !isCrouching)
         {
+            AudioPlayer.instance.PlaySFX(1);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             airCount++;
         }
@@ -195,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isRunning && dirX != 0 && isGrounded && !isCrouching)
         {
-            //AudioPlayer.instance.PlaySFX(1);
+            AudioPlayer.instance.PlaySFX(0);
             anim.Play("Player_Run");
         }
         else if (!isRunning && dirX != 0 && isGrounded && !isCrouching)
@@ -251,6 +252,7 @@ public class PlayerMovement : MonoBehaviour
             isCrouching = true;
             GetComponent<BoxCollider2D>().size = new Vector2(0.7992616f, 1.52f);
             GetComponent<BoxCollider2D>().offset = new Vector2(0.007851839f, -0.8347909f);
+            AudioPlayer.instance.PlaySFX(1);
             anim.Play("Player_Crouch");
             /*if (Input.GetButtonDown("Jump"))
             {

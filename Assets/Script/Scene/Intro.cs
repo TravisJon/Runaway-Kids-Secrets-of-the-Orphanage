@@ -17,6 +17,6 @@ public class Intro : MonoBehaviour
     {
         yield return new WaitForSeconds(wait_time);
 
-        SceneManager.LoadScene("Start Screen");
+        SceneManager.LoadScene("Disclaimer");
     }
 }

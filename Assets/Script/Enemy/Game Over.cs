@@ -34,17 +34,17 @@ public class GameOver : MonoBehaviour
         return false;
     }
 
-    void CheckAndEndTimer()
+    /*void CheckAndEndTimer()
     {
         if (TimeController.instance != null)
         {
             TimeController.instance.EndTimer();
         }
-    }
+    }*/
 
     IEnumerator ShowGameOverScreen()
     {
-        CheckAndEndTimer();
+        //CheckAndEndTimer();
         gameOverScreen.SetActive(true);
 
         // Wait for the specified duration
