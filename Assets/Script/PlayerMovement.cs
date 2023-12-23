@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isFull = false;
     private bool isDecreasingRunTime = false;
 
-    [SerializeField] private AudioSource walkSoundEffect;
+    //[SerializeField] private AudioSource walkSoundEffect;
 
     //private enum MovementState { idle, walk, jumping, falling }
 
@@ -67,11 +67,12 @@ public class PlayerMovement : MonoBehaviour
         Jump();
         Crouch();
     }
+
     private void Move()
     {
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * (isRunning ? runSpeed : moveSpeed), rb.velocity.y);
-        AudioPlayer.instance.PlaySFX(0);
+        //AudioPlayer.instance.PlaySFX(0);
 
         if (dirX < 0)
         {
@@ -90,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX != 0 && isGrounded && !isCrouching && !isRunning)
         {
+            AudioPlayer.instance.PlaySFX(0);
             anim.Play("Player_Walk");
         }
     }
@@ -193,6 +195,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isRunning && dirX != 0 && isGrounded && !isCrouching)
         {
+            //AudioPlayer.instance.PlaySFX(1);
             anim.Play("Player_Run");
         }
         else if (!isRunning && dirX != 0 && isGrounded && !isCrouching)
