@@ -8,13 +8,13 @@ public class Disclaimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(NextScene());
+        SceneManager.LoadScene("Start Screen");
     }
 
-    IEnumerator NextScene()
+    /*IEnumerator NextScene()
     {
         yield return new WaitForSeconds(3f);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+    }*/
 }
